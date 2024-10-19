@@ -11,6 +11,8 @@ This repository contains Rust implementations related to the **Levenshtein Dista
   - **lib.rs**: Contains the core functions to compute Levenshtein Distance.
   - **main.rs**: The entry point to the program, calls functions from `lib.rs`.
 
+- **data/**: Non-script object to use in project and readme
+
 ## Functions
 
 ### 1. `initialize_distances(token1_len, token2_len)`
@@ -69,7 +71,9 @@ make format
 ```
 
 ## Related Images
+![Run Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/ed1b2464843227c18ad819eaa6cd887f8917ae37/data/run.png)
 
+![Test Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/ed1b2464843227c18ad819eaa6cd887f8917ae37/data/testing.png)
 
 ## License
 
