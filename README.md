@@ -3,14 +3,13 @@
 
 # Javidan_IDS706_Week7_Rust
 
-This repository contains Rust implementations related to the **Levenshtein Distance Algorithm**, broken down into manageable, modular functions. It forms part of the Week 7 assignments for the **IDS 706 course**.
+This repository contains Rust implementations related to the **Levenshtein Distance Algorithm**, broken down into manageable, modular functions. It reflects the basic structure including CI/CD, Testing, Makefile and reproduceble environments. 
 
 ## Project Structure
 
 - **src/**
   - **lib.rs**: Contains the core functions to compute Levenshtein Distance.
   - **main.rs**: The entry point to the program, calls functions from `lib.rs`.
-- **tests/**: Unit tests for each function in the project.
 
 ## Functions
 
@@ -69,6 +68,9 @@ To auto-format the code:
 make format
 ```
 
+## Related Images
+
+
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/232d3bb984b144f90a2425f53b2d900379e67cf5/LICENSE.txt).
