@@ -14,17 +14,17 @@ This repository contains Rust implementations related to the **Levenshtein Dista
 
 ## Functions
 
-### 1. `initialize_distances(token1_len: usize, token2_len: usize) -> Vec<Vec<usize>>`
+### 1. `initialize_distances(token1_len, token2_len)`
    - Initializes a 2D vector to store distances between tokens. 
    - The first row and first column are filled with incremental values representing the distance at each stage.
 
-### 2. `calculate_minimum(a: usize, b: usize, c: usize) -> usize`
+### 2. `calculate_minimum(a, b, c)`
    - Calculates the minimum of three values, used to compute the Levenshtein distance in `fill_distances`.
 
-### 3. `fill_distances(token1: &str, token2: &str, distances: &mut [Vec<usize>])`
+### 3. `fill_distances(token1, token2, distances)`
    - Fills the distance matrix with calculated distances based on character comparisons between two tokens.
 
-### 4. `levenshtein_distance_dp(token1: &str, token2: &str) -> usize`
+### 4. `levenshtein_distance_dp(token1, token2)`
    - Main function that calculates and returns the Levenshtein distance between two strings using dynamic programming.
 
 ## Running the Code
