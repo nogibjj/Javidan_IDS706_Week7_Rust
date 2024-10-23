@@ -3,7 +3,7 @@
 
 # Javidan_IDS706_Week7_Rust
 
-This repository contains Rust implementations related to the **Levenshtein Distance Algorithm**, broken down into manageable, modular functions. It reflects the basic structure including CI/CD, Testing, Makefile and reproduceble environments. 
+This repository contains Rust implementations related to the **Levenshtein Distance Algorithm**, broken down into manageable, modular functions. It reflects the basic structure including CI/CD, Command Line Interface, Testing, Makefile and reproduceble environments. 
 
 ## Project Structure
 
@@ -45,7 +45,7 @@ cargo build
 To execute the main program:
 
 ```bash
-cargo run
+cargo run -- calculate "AnyWord" "AnyOtherWord"
 ```
 
 ### Testing
@@ -74,7 +74,7 @@ make format
 **Run Example Console Output**
 ![Run Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/ed1b2464843227c18ad819eaa6cd887f8917ae37/data/run.png)
 
-**Test Example Console Output**
+**Test Example CLI Console Output**
 ![Test Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/ed1b2464843227c18ad819eaa6cd887f8917ae37/data/testing.png)
 
 ## License
