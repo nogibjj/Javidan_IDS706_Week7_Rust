@@ -34,12 +34,6 @@ jobs:
     - name: Release
       run: cargo build --release
 
-    - name: Show full path
-      run: ls -ll target
-
-    - name: Show full path 2
-      run: ls -ll target/release/
-
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4 #v3 is scheduled for deprecation Nov 30 2024 check marketplace
       with:
