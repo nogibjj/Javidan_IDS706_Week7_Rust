@@ -75,7 +75,7 @@ make format
 ![Run Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/ed1b2464843227c18ad819eaa6cd887f8917ae37/data/run.png)
 
 **Test Example CLI Console Output**
-![Test Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/ed1b2464843227c18ad819eaa6cd887f8917ae37/data/testing.png)
+![Test Example Console Output](https://github.com/nogibjj/Javidan_IDS706_Week7_Rust/blob/faa7bac90d35396e582036af4eb0792bf805697b/data/cli_run.png)
 
 ## License
 
